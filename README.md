@@ -1,2 +1,3 @@
 # CPE009A_12S1
-Python Coding projects
+Python Coding programs
+Student Profile
