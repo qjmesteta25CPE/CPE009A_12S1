@@ -43,7 +43,7 @@ class Character():
         return self.__agi
     def set_Agi(self, new_agi):
         self.__agi = new_agi
-    def reducedHp(self, damage_amount):
+    def reduceHp(self, damage_amount):
         self.__hp = self.__hp - damage_amount
     def addHp(self,heal_amount):
         self.__hp = self.__hp + heal_amount

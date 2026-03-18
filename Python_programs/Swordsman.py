@@ -9,5 +9,5 @@ class Swordsman(Novice):
 
     def slashAttack(self, character):
         self.newDamage = self.getDamage() + self.getStr()
-        character.reduceHp(self.newdamage)
-        print(f"{self.getUsername()} performed Slash Attack! -{self.newdamage}")
+        character.reduceHp(self.new_damage)
+        print(f"{self.getUsername()} performed Slash Attack! -{self.new_damage}")
